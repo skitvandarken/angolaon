@@ -1,0 +1,31 @@
+.logotop {
+
+    align-items: flex-start;
+    text-align: left;
+   
+    display: flex;
+  
+  }
+  
+  a{
+  
+    color:#fff !important;
+  
+  
+  }
+  
+  .uk-offcanvas-bar {
+    background-color:#00dbe5;
+    color: white !important;
+  
+  }
+
+  .menu-white{
+    color: white !important;
+    
+  }
+
+  .menu-white :hover{
+    color: rgb(158, 157, 157) !important;
+    transition: 1s;
+  }

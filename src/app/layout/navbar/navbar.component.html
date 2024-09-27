@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/css/uikit.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+    <header classe="uk-container"></header>
+    
+  <nav class="uk-container uk-navbar-transparent uk-light" uk-navbar>
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-item uk-logo" href="#"><img class="logotop"   src="assets/images/logo.png" alt="Logo"></a> 
+    </div>
+    <div class="uk-navbar-right" style="margin-right:3%">
+      <ul class="uk-navbar-nav uk-visible@m">
+        <li><a class="menu-white" routerLink="acerca" uk-scroll="offset: 80"><b>  O Programa</b> <i class="fa-solid fa-align-right"></i>  </a> </li> 
+        <li><a class="uk-active menu-white" routerLink="#" uk-scroll="offset: 80"><b>  A Equipa</b><i class="fa-solid fa-people-group"></i>  </a></li>
+        <li ><a class="menu-white" routerLink="#" uk-scroll="offset: 80"><b>  Junta-te</b>  <i class="fa-solid fa-user-plus"></i></a> </li>
+        <li><a class="menu-white" routerLink="#" uk-scroll="offset: 80"><b>  Contacto</b>  <i class="fa-solid fa-envelope"></i></a></li>
+      </ul>
+      <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-nav" uk-toggle>
+        <span uk-navbar-toggle-icon></span>
+      </a>
+
+    </div>
+  </nav>
+
+  <div id="offcanvas-nav" uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+      <ul class="uk-nav uk-nav-default">
+        <li><p style="color:#000 !important">Menu</p></li>
+        <li><a routerLink="acerca" uk-scroll="offset: 80"><h3 style="color:#000 !important">O Programa</h3></a></li>
+        <li><a href="#" uk-scroll="offset: 80"><h3 style="color:#000 !important">O Apresentador</h3></a></li>
+        <li><a href="#" uk-scroll="offset: 80"><h3 style="color:#000 !important">A Equipa</h3></a></li>
+        <li><a href="#" uk-scroll="offset: 80"><h3 style="color:#000 !important">Junta-te</h3></a></li>
+        <li><a href="#" uk-scroll="offset: 80"><h3 style="color:#000 !important">Contacto</h3></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>

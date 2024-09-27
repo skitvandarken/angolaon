@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.viga-regular {
+  font-family: "Viga", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(2, 12, 20) 50%, rgb(0, 0, 0) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+  
+  h1, h2, h3, ul, li, nav, a, button {
+    font-family:monospace;
+
+    /*font-family: "San Francisco", "SF Pro", sans-serif !important;*/
+    font-family: "Viga", sans-serif !important;
+
+    color: aliceblue !important;
+  
+  
+  }
+  
+  .uk-container, .uk-heading-medium, .uk-heading-small, .uk-text, .uk-button {
+    font-family: ""San Francisco", "SF Pro", sans-serif" !important ;
+  }
